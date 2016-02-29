@@ -1,10 +1,10 @@
 {  
-   "name": "Wolfenstein 3D",
-   "description": "Open-source shooter from idSoftware",
+   "name": "Selfservice",
+   "description": "Self Service ambedded app",
    "type": "community_widget",
    "urls": {},
    "payload": {  
-      "defId": "Wolfenstein 3D",
+      "defId": "Self Service",
       "showInPalette": "true",
       "primaryWidget": "true",
       "modes": "view",
@@ -12,7 +12,7 @@
       "url": "https://apps.collabservnext.com/connections/resources/web/com.ibm.social.urliWidget.web.resources/widget/urlWidget.xml",
       "itemSet": [  
          {  
-            "value": "https://cdn.rawgit.com/dvdsmpsn/html5-wolfenstein3D/master/index.html",
+            "value": "https://xapps.voessing.de/object.xsp",
             "name": "url"
          },
          {  
