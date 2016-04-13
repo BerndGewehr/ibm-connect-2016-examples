@@ -57,12 +57,10 @@ $(function(){
 					data.context = JSON.parse(data.context); // context data in string form :(
 				}
 							
-				if (typeof data.context.customPayload.videoId === 'string') {	
-					$('iframe:first').attr('src', '//www.youtube.com/embed/' + data.context.customPayload.videoId );	
-					$('a:first').attr('href', '//www.youtube.com/watch?v=' + data.context.customPayload.videoId)
-					  .html(data.context.customPayload.title);	
+				if (typeof data.context.customPayload.url === 'string') {	
+					$('iframe:first').attr('src', data.context.customPayload.url );	
 				} else {
-					console.error(' ++ customPayload.videoId not found in the context: ', data.context);
+					console.error(' ++ customPayload.url not found in the context: ', data.context);
 				}		
 			},
 			
@@ -107,7 +105,7 @@ $(function(){
 		Connect2016.embeddedExperience.loadData({
 			context: {
 				customPayload: {
-					"videoId": "aKdV5FvXLuI",
+					"url": "http://www.google.de",
 					"title": "DR does Alphabet Aerobics"
 				}
 			}
