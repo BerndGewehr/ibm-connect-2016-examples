@@ -105,7 +105,7 @@ $(function(){
 		Connect2016.embeddedExperience.loadData({
 			context: {
 				customPayload: {
-					"url": "http://www.google.de",
+					"url": "https://notes.voessing.de/C12564F3003E7E1C/46DFAFF010AB13E7C12579D10066E0BA/284ED47BE2BE3940C1257736004F09BD!OpenDocument",
 					"title": "DR does Alphabet Aerobics"
 				}
 			}
