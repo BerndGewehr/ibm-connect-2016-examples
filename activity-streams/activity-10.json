@@ -1,0 +1,34 @@
+{ "generator": { 
+    "image": { "url": "https://xapps.voessing.de/selfservice.nsf/SelfServiceIcon.png?OpenFileResource" }, 
+    "id": "example.ee.SelfService",
+    "displayName": "SelfService", 
+    "url": "https://xapps.voessing.de/selfservice.nsf/" 
+}, 
+"actor": { 
+    "id":"SelfService" }, 
+"verb": "post", 
+"title": "${share}", 
+"content":"", "updated": "2012-01-01T12:00:00.000Z", 
+"object": { 
+    "summary": "", 
+    "objectType": "note", 
+    "id": "objectid", 
+    "displayName": "Das Asset EDV-106590 (TFT-LCD Monitor) des derzeitigen Besitzers Henrik Müller (IBV / IBV Hannover) erreicht am 30.06.2016 das Leasingende.", 
+    "url": "https://notes.voessing.de/C12564F3003E7E1C/46DFAFF010AB13E7C12579D10066E0BA/284ED47BE2BE3940C1257736004F09BD!OpenDocument" 
+    }, 
+"openSocial": { 
+    "embed": { 
+        "gadget": "https://apps.collabservnext.com/connections/resources/web/com.ibm.social.ee.cloud/cloudee.xml", 
+        "context": { 
+            "customPayload": { 
+                "url": "https://notes.voessing.de/C12564F3003E7E1C/46DFAFF010AB13E7C12579D10066E0BA/284ED47BE2BE3940C1257736004F09BD!OpenDocument",
+                "title": "SelfService"
+            }, 
+        "url" : "https://cdn.rawgit.com/bgewehr/ibm-connect-2016-examples/master/activity-streams/cloud-embedded-experience/ee.html", 
+        "debug" : true, 
+        "height": 245, 
+        "width": 380 
+        } 
+    } 
+} 
+}
