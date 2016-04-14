@@ -1,0 +1,47 @@
+{
+	"generator": {
+		"id": "generic.EE.wrapper", 
+		"displayName": "Vössing Inventar", 
+		"url": "https://notes.voessing.de"
+	}, 
+	"actor": {
+		"id": "@me"
+	}, 
+	"verb": "post", 
+	"title": "title", 
+	"content": "content", 
+	"object": {
+		"summary": "Summary", 
+		"objectType": "note", 
+		"id": "Notes.EE", 
+		"displayName": "displayName", 
+		"url": "https://notes.voessing.de"
+	}, 
+	"target": {
+		"summary": "targetSummary", 
+		"objectType": "targetObjectType", 
+		"id": "Notes.EE", 
+		"displayName": "targetDisplayName", 
+		"url": "https://notes.voessing.de"
+	}, 
+	"openSocial": {
+		"embed": {
+			"gadget": "https://apps.ce.collabserv.com/connections/resources/web/com.ibm.social.ee.cloud/cloudee.xml", 
+			"context": {
+				'should not': 'be empty',
+                                 "customPayload": { 
+                "url": "https://notes.voessing.de/C12564F3003E7E1C/46DFAFF010AB13E7C12579D10066E0BA/284ED47BE2BE3940C1257736004F09BD!OpenDocument",
+                "title": "SelfService"
+            }, 
+				"url" : "https://cdn.rawgit.com/bgewehr/ibm-connect-2016-examples/master/activity-streams/cloud-embedded-experience/ee.html", 
+				"debug" : true,
+				"height" : 1024,
+                                "width" : 500
+			}
+		}
+	}, 
+	"connections": {
+		"rollupid": "bootstrapEE1416967496266abscdss",
+		"broadcast" : "true"
+	}
+}
