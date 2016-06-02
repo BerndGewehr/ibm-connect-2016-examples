@@ -7,7 +7,7 @@
       "defId": "Self Service",
       "showInPalette": "true",
       "primaryWidget": "true",
-      "modes": "view",
+      "modes": "view fullpage",
       "themes": "wpthemeThinwpthemeNarrowwpthemeWidewpthemeBanner",
       "url": "https://apps.collabservnext.com/connections/resources/web/com.ibm.social.urliWidget.web.resources/widget/urlWidget.xml",
       "itemSet": [  
